@@ -27,10 +27,10 @@
 //"" => false
 //"abc" => true
 
-let somevar = 33
-let numberfromstring = String(somevar)
-console.log(typeof numberfromstring);
-console.log(numberfromstring);
+// let somevar = 33
+// let numberfromstring = String(somevar)
+// console.log(typeof numberfromstring);
+// console.log(numberfromstring);
 
 //"33" => 33
 //"33abc" => NaN
@@ -38,3 +38,21 @@ console.log(numberfromstring);
 //true => 1
 //false => 0
 //null => 0 
+
+
+//operations
+let value1 = 5
+let value2 = 10
+
+console.log(value1 + value2);
+console.log(value1 - value2);
+console.log(value1 * value2);
+console.log(value1 / value2);
+ console.log(value1 % value2);
+
+//increment and decrement
+let newvalue = 5
+newvalue++ //6
+newvalue-- //5
+++newvalue //6
+--newvalue //5
